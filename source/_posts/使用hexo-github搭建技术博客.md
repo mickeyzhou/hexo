@@ -12,7 +12,7 @@ tags:
 7. 将hexo 创建的博客项目与github仓库关联， 修改_config.yml文件最后一行的deploy配置
 8.  使用hexo new post xxx 创建一篇新博客
 9.  使用markdown编写完博客后，在根目录下输入hexo g 命令生成静态网页,然后使用hexo s 命令就可以预览刚创建的博客了
-10.  将博客部署到github主页上
+10.  将博客部署到github主页上s
 
 
 
