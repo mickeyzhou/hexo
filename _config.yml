@@ -3,18 +3,18 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: 前端技术笔记
 subtitle:
 description:
 keywords:
-author: John Doe
-language:
+author: MickeyZhou
+language: zh-CN
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://mickeyzhou.github.io/mickey.github.io/
-root: /mickey.github.io/
+url: https://mickeyzhou.github.io/blog/
+root: /blog/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -35,7 +35,7 @@ titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true  #生成文章的同时，会创建文章同名的文件夹用于放图片等资源
 relative_link: false
 future: true
 highlight:
@@ -79,5 +79,5 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: https://github.com/mickeyzhou/mickey.github.io.git
+  repository: https://github.com/mickeyzhou/blog.git
   branch: master
