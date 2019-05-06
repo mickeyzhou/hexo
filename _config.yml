@@ -87,3 +87,7 @@ search:
   path: search.json
   field: post
   content: true
+
+# Markdown-it config
+# value can be : zero, default, commonmark
+markdown: 'commonmark' 
