@@ -81,3 +81,9 @@ deploy:
   type: git
   repository: https://github.com/mickeyzhou/blog.git
   branch: master
+
+# Blog Search 
+search:
+  path: search.json
+  field: post
+  content: true
